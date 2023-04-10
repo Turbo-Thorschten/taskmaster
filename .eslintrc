@@ -1,0 +1,20 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "@vue/typescript/recommended"
+        // Add under other rules
+    ],
+    "rules": {
+        // override/add rules settings here, such as:
+        // 'vue/no-unused-vars': 'error'
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    }
+}
